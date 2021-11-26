@@ -68,3 +68,34 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `yarn build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+For this code challenge, you will code a simple React application. The App should display some data
+from the SpaceX API (https://docs.spacexdata.com/).
+When you are done, make a .zip of your code and send it us by email.
+Pre-requisites
+There are only two requisites for this challenge: React and Unit testing. But if you want to use any
+other technology, keep in mind that we, at FARFETCH, also use Jest, Enzyme, react-testing-library,
+GraphQL, Typescript, Redux, CSS modules and Emotion.
+The styling part is up to you. Feel free to be creative!
+Challenges
+1. List all SpaceX launches
+The list should have have 2 sections:
+o Past launches
+o Upcoming launches
+By default, the list should display only 4 launches. It should display more items when the user scrolls
+down, 4 at a time.
+Each list item should display, at least:
+o the launch number
+o the mission name and year
+o the mission success
+o the name of the rocket used in the launch
+o an image
+2. Create list Filters
+Create the following list filters:
+• Show the launches that took place before or after a date defined the user
+• Show the succeeded/unsucceeded launches
+• Show the only the past/upcoming launches
+It should be possible to combine the filters and so, filtering the list with all of them at the same time.
+3. Create favourites
+Add the possibility to add a launch to the user favourites.
